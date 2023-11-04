@@ -1,0 +1,212 @@
+body {
+    margin: 0;
+    background-color: #DDDDDD;
+}
+
+div.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #DDDDDD;
+    min-height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-bottom: 10px;
+    border-color: #222222;
+}
+
+main {
+    max-width: 1000px;
+    background-color: #DDDDDD;
+    min-height: 2rem;
+    min-width: 100px;
+    align-self: center;
+}
+
+.chapterHeading {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.recipeCardsContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0.5rem;
+    grid-template-areas: "greenItem greenItem greenItem"
+        "purpleItem redItem blueItem";
+
+}
+
+.recipeCard {
+    min-height: 14rem;
+    min-width: 14rem;
+}
+
+.greenBg {
+    background-color: #AAAAAA;
+    ;
+    grid-area: greenItem;
+}
+
+.purpleBg {
+    background-color: #AAAAAA;
+    ;
+    grid-area: purpleItem;
+}
+
+.redBg {
+    background-color: #AAAAAA;
+    grid-area: redItem;
+}
+
+.blueBg {
+    background-color: #666666;
+    grid-area: blueItem;
+}
+
+
+.containerTwo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+    grid-template-areas: "underBox1 underBox2"
+        "underBox3 underBox4"
+}
+
+.box {
+    min-height: 14rem;
+    min-width: 14rem;
+}
+
+.underBox1 {
+    background-color: gray;
+    grid-area: underBox1;
+}
+
+.underBox2 {
+    background-color: gray;
+    grid-area: underBox2;
+}
+
+.underBox3 {
+    background-color: gray;
+    grid-area: underBox3;
+}
+
+.underBox4 {
+    background-color: gray;
+    grid-area: underBox4;
+}
+
+.largeCard {
+    display: flex;
+    flex-direction: row;
+}
+
+.gridImage {
+    min-height: 14rem;
+    min-width: 28rem;
+}
+
+/*
+.gridImageText {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    max-height: 14rem;
+    max-width: 14rem;
+}*/
+
+.gridImageText {
+    padding: 2rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-height: 21rem;
+    max-width: 16rem;
+    justify-content: flex-start;
+}
+
+h2 {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.gridImageTextSMall {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.breakfast {
+    font-family: 'EB Garamond', serif;
+    font-size: 14px;
+    font-weight: 700;
+    font-style: italic
+}
+
+nav>a {
+    text-decoration: none;
+    color: #222222;
+    
+    
+}
+
+nav {
+    font-size: 12px;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    word-spacing: 1rem;
+    text-align: center;
+    line-height: 3rem;
+    border-bottom: black solid 2px;
+    
+  
+
+}
+
+.headerIcons {
+    min-width: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.part1 {
+    font-size: 14px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.part2 {
+    font-size: 42px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.part4 {
+    font-size: 42px;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 800;
+}
+
+.part3 {
+    font-size: 14px;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=EB+Garamond:ital,wght@1,700&family=Montserrat&family=Open+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Montserrat&family=Open+Sans:wght@300;400&display=swap');
